@@ -1,0 +1,23 @@
+.lost-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+.lost-filters { display: flex; gap: 8px; margin-bottom: 24px; }
+.filter-btn {
+  padding: 8px 20px; border-radius: var(--radius-full); background: var(--bg-glass);
+  border: 1px solid var(--border-color); color: var(--text-secondary); font-family: var(--font-family);
+  font-size: 0.9rem; cursor: pointer; transition: all var(--transition-fast);
+}
+.filter-btn.active, .filter-btn:hover { background: var(--accent-primary); color: white; border-color: var(--accent-primary); }
+.lost-form { padding: 28px; margin-bottom: 32px; }
+.lost-form:hover { transform: none; }
+.lost-form h3 { margin-bottom: 20px; }
+.lost-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.lost-card { overflow: hidden; }
+.lost-card-img { height: 180px; }
+.lost-card-img img { width: 100%; height: 100%; object-fit: cover; }
+.lost-card-body { padding: 20px; }
+.lost-card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.lost-card-head h3 { font-size: 1.1rem; }
+.lost-card-species { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 8px; }
+.lost-card-desc { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px; line-height: 1.5; }
+.lost-card-loc, .lost-card-phone { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+@media (max-width: 900px) { .lost-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .lost-grid { grid-template-columns: 1fr; } .lost-header { flex-direction: column; gap: 16px; } }

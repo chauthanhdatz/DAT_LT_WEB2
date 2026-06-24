@@ -1,0 +1,17 @@
+.shelters-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.shelter-card { display: flex; overflow: hidden; }
+.shelter-card-image { width: 200px; min-height: 200px; flex-shrink: 0; }
+.shelter-card-image img { width: 100%; height: 100%; object-fit: cover; }
+.shelter-card-body { padding: 24px; flex: 1; }
+.shelter-card-body h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
+.shelter-card-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 16px; }
+.sci-item { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+@media (max-width: 900px) {
+  .shelters-grid { grid-template-columns: 1fr; }
+  .shelter-card { flex-direction: column; }
+  .shelter-card-image { width: 100%; height: 200px; }
+}

@@ -1,0 +1,89 @@
+.pet-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+  animation: fadeInUp 0.5s ease forwards;
+}
+.pet-card-image {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+.pet-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+.pet-card:hover .pet-card-image img {
+  transform: scale(1.08);
+}
+.pet-card-badges {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  gap: 6px;
+}
+.pet-card-body {
+  padding: 20px;
+  flex: 1;
+}
+.pet-card-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.pet-card-breed {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+.pet-card-info {
+  display: flex;
+  gap: 16px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+.pet-card-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tag {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.tag-green {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--accent-green);
+}
+.tag-blue {
+  background: rgba(6, 182, 212, 0.1);
+  color: var(--accent-secondary);
+}
+.pet-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-top: 1px solid var(--border-color);
+}
+.pet-card-shelter {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.pet-card-cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  transition: all var(--transition-fast);
+}
+.pet-card:hover .pet-card-cta {
+  color: var(--accent-secondary);
+  transform: translateX(4px);
+}
