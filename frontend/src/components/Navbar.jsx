@@ -29,6 +29,7 @@ export default function Navbar() {
     { to: '/shelters', label: 'Trạm Cứu Hộ' },
     { to: '/campaigns', label: 'Chiến Dịch' },
     { to: '/donate', label: 'Quyên Góp' },
+    { to: '/blog', label: 'Cẩm Nang' },
   ];
 
   return (
@@ -42,7 +43,7 @@ export default function Navbar() {
               <PawPrint size={20} className="text-white" fill="currentColor" />
             </div>
             <span className={`text-xl font-black tracking-widest uppercase ${scrolled ? 'text-slate-800' : 'text-slate-800 drop-shadow-sm'} transition-colors`}>
-              PawFund
+              DatCMS.Pets
             </span>
           </Link>
 

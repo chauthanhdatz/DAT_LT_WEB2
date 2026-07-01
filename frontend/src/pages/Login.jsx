@@ -40,7 +40,7 @@ export default function Login() {
           <div className="auth-header">
             <span className="auth-icon">🐾</span>
             <h1>Đăng nhập</h1>
-            <p>Chào mừng quay lại PawFund!</p>
+            <p>Chào mừng quay lại DatCMS.Pets!</p>
           </div>
 
           {error && <div className="alert alert-error">{error}</div>}

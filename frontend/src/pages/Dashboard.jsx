@@ -424,7 +424,7 @@ export default function Dashboard() {
       <aside className="sidebar bg-slate-900 text-slate-300">
         <div className="sidebar-header border-slate-800">
           <PawPrint size={28} className="text-indigo-400" />
-          <h2 className="text-white">PawFund<span className="text-indigo-400">.</span></h2>
+          <h2 className="text-white">DatCMS.Pets<span className="text-indigo-400">.</span></h2>
         </div>
         
         <div className="sidebar-user border-slate-800">

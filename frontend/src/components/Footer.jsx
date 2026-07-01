@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <span>🐾</span> PawFund
+              <span>🐾</span> DatCMS.Pets
             </div>
             <p>Kết nối yêu thương, tìm mái ấm cho thú cưng bị bỏ rơi.</p>
           </div>
@@ -31,14 +31,14 @@ export default function Footer() {
 
           <div className="footer-links">
             <h4>Liên hệ</h4>
-            <p>📧 contact@pawfund.com</p>
+            <p>📧 contact@datcms.pets</p>
             <p>📞 0901-234-567</p>
             <p>📍 TP. Hồ Chí Minh, Việt Nam</p>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© 2024 PawFund. Made with 💜 for pets.</p>
+          <p>© 2026 DatCMS.Pets. Made with 💜 for pets.</p>
         </div>
       </div>
     </footer>

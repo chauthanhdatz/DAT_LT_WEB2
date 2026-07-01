@@ -53,7 +53,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-black text-white tracking-tight drop-shadow-[0_8px_8px_rgba(0,0,0,0.8)] uppercase mx-4">
-            PAWFUND
+            DATCMS.PETS
           </h1>
 
           {/* VẼ CON CHÓ (Bên phải tiêu đề - ẩn trên mobile, hiện từ màn md) */}

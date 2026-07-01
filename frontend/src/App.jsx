@@ -13,6 +13,8 @@ import LostPets from './pages/LostPets';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import Campaigns from './pages/Campaigns';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
                 <Route path="/campaigns" element={<Campaigns />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:id" element={<BlogPost />} />
               </Routes>
             </div>
             <Footer />
